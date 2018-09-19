@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="565.0" prefWidth="844.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller" >
+   <children>
+      <Button layoutX="502.0" layoutY="414.0" mnemonicParsing="false" onAction="#playButton" prefHeight="77.0" prefWidth="217.0" text="Get Lyrics!" />
+      <WebView fx:id="htmlLyrics" layoutX="14.0" layoutY="15.0" prefHeight="538.0" prefWidth="368.0" />
+      <WebView fx:id="image" layoutX="451.0" layoutY="86.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="320.0" minWidth="320.0" prefHeight="320.0" prefWidth="320.0" />
+   </children>
+</Pane>
