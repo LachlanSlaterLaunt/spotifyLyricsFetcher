@@ -13,7 +13,7 @@ public class songObject {
     public static String imageURL;
     public static String getter(String x) throws Exception {
         String data = new String();
-        String key = "5fFhpZoE4N4C4-HSNVJJBjpIwbL_98USgdZqSIs5LCLKF7HbtKwxRlmBzL8xyLeK";
+        String key = "INSERT_YOUR_KEY";
         String searchTerm;
         String songURL;
         String fullTitle;
